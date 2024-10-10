@@ -54,7 +54,7 @@ namespace OutlookImageFromClipboardAddin
 
             application.ItemLoad += Application_ItemLoad;
             */
-
+            //MessageBox.Show("Hello World!");
 
         }
 

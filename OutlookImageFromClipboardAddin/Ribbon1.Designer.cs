@@ -58,8 +58,8 @@
             // btnAddImageFromClipboard
             // 
             this.btnAddImageFromClipboard.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnAddImageFromClipboard.Image = global::OutlookImageFromClipboardAddin.Properties.Resources.iconfinder_icon_image_211677;
-            this.btnAddImageFromClipboard.Label = "Attachment Image From Clipboard";
+            this.btnAddImageFromClipboard.Image = global::OutlookImageFromClipboardAddin.Properties.Resources.insert_image;
+            this.btnAddImageFromClipboard.Label = "Attach Image From Clipboard";
             this.btnAddImageFromClipboard.Name = "btnAddImageFromClipboard";
             this.btnAddImageFromClipboard.ShowImage = true;
             this.btnAddImageFromClipboard.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnAddImageFromClipboard_Click);
@@ -67,7 +67,8 @@
             // Ribbon1
             // 
             this.Name = "Ribbon1";
-            this.RibbonType = "Microsoft.Outlook.Mail.Compose";
+            this.RibbonType = "Microsoft.Outlook.Mail.Compose, Microsoft.Outlook.Mail.Read, Microsoft.Outlook.Re" +
+    "sponse.Compose";
             this.Tabs.Add(this.tab1);
             this.tab1.ResumeLayout(false);
             this.tab1.PerformLayout();

@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using System.IO;
 using System.Text.RegularExpressions;
+using Microsoft.Office.Interop.Outlook;
 
 namespace OutlookImageFromClipboardAddin
 {
